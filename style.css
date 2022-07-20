@@ -11,7 +11,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
 
 :root{
@@ -21,6 +21,7 @@
   --medium-brown: hsl(28, 10%, 53%);
   --cream: hsl(27, 66%, 92%);
   --very-pale-orange: hsl(33, 100%, 98%);
+  --font-400: 
 }
 
 .container {
@@ -28,8 +29,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--cream);
-  
+  background-color: var(--cream);  
 }
 
 

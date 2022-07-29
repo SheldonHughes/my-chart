@@ -15,21 +15,46 @@
 }
 
 :root{
-  --soft-red: hsl(10, 79%, 65%);
-  --near-cyan: hsl(186, 34%, 60%);
+  --primary-red: hsl(10, 79%, 65%);
+  --primary-cyan: hsl(186, 34%, 60%);
   --dark-brown: hsl(25, 47%, 15%);
   --medium-brown: hsl(28, 10%, 53%);
   --cream: hsl(27, 66%, 92%);
   --very-pale-orange: hsl(33, 100%, 98%);
-  --font-400: 
+  --font-400: 400;
+  --font-700: 700;
+  --font-body: 18px;
 }
 
 .container {
+  height: 100vh;
   padding: 5;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--cream);  
+  flex-direction: column;
+  background-color: var(--cream);
+  font-size: var(--font-body);
+}
+
+.card-header{
+  display: flex;
+  align-items:center;
+  justify-content: flex-start;
+  flex-direction: row;
+  background-color: var(--primary-red);
+  border-radius: 10px;
+  height: 70px;
+  width: 450px;
+  margin-top: 20px;
+}
+.card-header-main {
+  padding: 1rem;
+}
+
+.card-header-main-text {
+  font-size: 14px;
+  color: var(--cream);
 }
 
 
